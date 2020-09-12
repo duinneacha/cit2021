@@ -103,7 +103,7 @@
             <q-toolbar-title class="text-weight-bold">Nutrition</q-toolbar-title>
           </q-toolbar>
 
-          <q-list bordered padding class="bg-blue-1 text-grey-9">
+          <q-list bordered padding class="bg-blue-1 text-grey-10">
 
             <q-item
               v-for="nutritionItem in nutritionData"
