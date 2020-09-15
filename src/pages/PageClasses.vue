@@ -28,7 +28,7 @@
          
        </q-card-section>
 
-       <q-card-section class="text-caption text-weight-light">
+       <q-card-section class="text-caption text-bold">
          * Text Ali on 087 7727580 if you would like to join the group
        </q-card-section>
      </q-card>

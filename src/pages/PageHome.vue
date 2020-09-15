@@ -10,7 +10,7 @@
    <div class="row q-mt-sm">
 
       <q-card
-        class="my-card text-grey-2 text-center"
+        class="my-card text-grey-2 text-center full-width"
         style="background-color: #94236E; color: #4FB854"
         
       >

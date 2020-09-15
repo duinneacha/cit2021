@@ -8,7 +8,7 @@
    </div>
    
    <div class="row bg-grey-4">
-     <q-card class="my-card">
+     <q-card class="my-card full-width">
        <q-card-section horizontal>
          <q-img
            class="coal-5"
@@ -34,7 +34,7 @@
    <div class="q-md-xl">
 
     <q-card
-        class="my-card text-grey-2 text-center q-mb-lg"
+        class="my-card text-grey-2 text-center q-mb-lg full-width"
         style="background-color: #94236E; color: #4FB854"  
     >
         <q-card-section>
