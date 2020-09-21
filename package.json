@@ -6,13 +6,18 @@
   "author": "aidan.dennehy@mycit.ie",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build",
+    "start": "node server.js"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "axios": "^0.18.1",
+    "connect-history-api-fallback": "^1.6.0",
     "core-js": "^3.6.5",
+    "express": "^4.17.1",
     "quasar": "^1.0.0",
+    "serve-static": "^1.14.1",
     "vue2-google-maps": "^0.10.7"
   },
   "devDependencies": {
