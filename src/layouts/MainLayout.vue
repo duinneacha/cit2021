@@ -18,11 +18,11 @@
           
         </q-toolbar-title>
 
-        <div>
+        <div class="bg-grey-5">
 
           
-          <q-btn color="grey-8" type="e" icon="email" href="email:alinutrition@gmail.com">alinutrition@gmail.com</q-btn>
-          <q-btn class="q-ml-md" color="grey-8" type="a" icon="phone" href="tel:0877727580">087 7727580</q-btn>
+          <q-btn color="grey-8 large-screen-only" type="e" icon="email" href="email:alinutrition@gmail.com">alinutrition@gmail.com</q-btn>
+          <q-btn class="q-ml-md large-screen-only" color="grey-8" type="a" icon="phone" href="tel:0877727580">087 7727580</q-btn>
           
 
           <!-- <p><q-icon class="q-pr-sm" name="email" />alisnutrition@gmail.com</p>
@@ -56,7 +56,7 @@
       <router-view />
     </q-page-container>
 
-    <q-footer reveal elevated class="bg-grey-5 text-white">
+    <q-footer reveal elevated class="bg-grey-5 text-white large-screen-only">
       <q-toolbar>
         <q-toolbar-title>
 

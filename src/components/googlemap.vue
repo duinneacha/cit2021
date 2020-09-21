@@ -49,11 +49,11 @@ export default {
       place: null,
       center: {
         lat: 51.8543334,
-        lng: -8.3138638
+        lng: -8.3118038
       },
       zoom: 17,
       markers: [
-        {name: "Ali Nutrition", position: {lat: 1.8544344, lng: -8.3138638}, icon: "c:\ad\ad"}
+        {name: "Ali Nutrition", position: {lat: 51.8544344, lng: -8.3138638}, icon: "c:\ad\ad"}
       ],
       options: {
         zoomControl: true, // Sets the zoom control of the map
