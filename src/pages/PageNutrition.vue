@@ -52,7 +52,10 @@
         :key="nutritionItem.itemHeader"
         class="my-card col col-5 q-ma-md q-ma-md"
       >
-        <q-card-section class="bg-primary text-white">
+        <q-card-section
+          class="text-grey-2"
+          style="background-color: #94236E;"
+        >
           <div class="text-subtitle1 text-bold"> {{ nutritionItem.itemHeader }}</div>
           
         </q-card-section>

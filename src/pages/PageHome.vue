@@ -25,9 +25,9 @@
       </q-card>
    </div>
 
-    <div class="row bg-blue-2">
+    <div class="row bg-green-2">
       <q-toolbar class="text-grey-9 shadow-2 text-center q-mt-md">
-        <q-toolbar-title class="text-h4 q-pa-md text-bold">Services</q-toolbar-title>
+        <q-toolbar-title class="text-h5 q-pa-xs text-bold">Services</q-toolbar-title>
       </q-toolbar>
 
       <div class="q-pa-md col-6" >
@@ -44,10 +44,13 @@
     <testimonials />
     
     <!-- Locate Us  -->
-    <div class="row bg-purple-3">
+    <div
+      class="row"
+      style="background-color: #94236E;"
+    >
       <!-- <p class="text-h3 text-grey-9 text-bold text-uppercase text-center q-pa-md" style="margin: 0 auto;">Testimonials</p> -->
-      <q-toolbar class="text-grey-9 shadow-2 text-center q-mt-md">
-        <q-toolbar-title class="text-h4 q-pa-md text-bold">Locate Ali</q-toolbar-title>
+      <q-toolbar class="text-grey-2 shadow-2 text-center q-mt-md">
+        <q-toolbar-title class="q-pa-md text-weight-bold">Locate Ali</q-toolbar-title>
       </q-toolbar>
 
       

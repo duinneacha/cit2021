@@ -1,14 +1,17 @@
 <template>
     <div class="neorumuscular">
 
-      <q-toolbar class="bg-blue-6 text-grey-9 text-center">
+      <q-toolbar
+        class="text-center text-grey-2"
+        style="background-color: #94236E;"
+      >
         <q-toolbar-title class="text-weight-bold">Treatments</q-toolbar-title>
       </q-toolbar>
 
-        <q-list bordered separator padding class="bg-blue-1 text-grey-9">
+        <q-list bordered separator padding class="bg-green-1 text-grey-9">
             <q-item>
               <q-item-section>
-                <q-item-label class="text-bold">Neuromuscular Therapy</q-item-label>
+                <q-item-label>Neuromuscular Therapy</q-item-label>
                 <q-item-label caption>Neuromuscular Therapy for sports injuries, pre-event and post event treatments</q-item-label>
                 
               </q-item-section>

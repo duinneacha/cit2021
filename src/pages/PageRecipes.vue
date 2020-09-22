@@ -1,6 +1,12 @@
 <template>
   <q-page>
-    
+     <div class="row q-pa-md logo-banner">
+      <q-img
+        src="../assets/ali_logo.png"
+        style="border-radius: 5px; "
+        class="ali-logo"
+      />
+   </div>
 
       <div class="row constrain bg-red-2">
 

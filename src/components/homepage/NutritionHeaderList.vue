@@ -1,20 +1,24 @@
 <template>
   <div class="nutrition-list">
 
-    <q-toolbar class="bg-blue-6 text-grey-9 text-center">
+    <q-toolbar
+      class="text-grey-2 text-center"
+      style="background-color: #94236E;"
+    >
       <q-toolbar-title class="text-weight-bold">Nutrition</q-toolbar-title>
     </q-toolbar>
 
-    <q-list bordered padding separator class="bg-blue-1 text-grey-9">
+    <q-list bordered padding separator class="bg-green-1 text-grey-9">
 
       <q-item
         v-for="nutritionItem in nutritionData"
         :key="nutritionItem.itemHeader"
-        
+        clickable
+        :to="nutritionItem.sectionID"
       >
         <q-item-section>
           <q-item-label class="text-bold">{{ nutritionItem.itemHeader }}</q-item-label>
-          <q-item-label caption>{{ nutritionItem.itemText }}</q-item-label>
+          <!-- <q-item-label caption>{{ nutritionItem.itemText }}</q-item-label> -->
           
         </q-item-section>
 
@@ -31,7 +35,8 @@ export default {
      nutritionData: [
       {
       'itemHeader': 'Cholesterol',
-      'itemText': 'Cholesterol Text' 
+      'itemText': 'Cholesterol Text',
+      'sectionID': '/nutrition' 
       },
       {
         'itemHeader': 'Digestive Issues',
