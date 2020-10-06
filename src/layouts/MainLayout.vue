@@ -126,6 +126,12 @@ const linksData = [
     link: '#/contact'
   },
   {
+    title: 'Testimonials',
+    caption: 'Client stories',
+    icon: 'people',
+    link: '#/testimonials'
+  },
+  {
     title: 'Recipes',
     caption: 'Some nutritious recipes',
     icon: 'menu_book',

@@ -50,6 +50,7 @@
       <q-card
         v-for="nutritionItem in nutritionData"
         :key="nutritionItem.itemHeader"
+        :id="nutritionItem.sectionID"
         class="my-card col col-5 q-ma-md q-ma-md"
       >
         <q-card-section
@@ -85,51 +86,63 @@ export default {
      nutritionData: [
     {
      'itemHeader': 'Cholesterol',
-     'itemText': 'Cholesterol Text' 
+     'itemText': 'Cholesterol Text',
+     'sectionID': 'cholesterol' 
     },
     {
       'itemHeader': 'Digestive Issues',
-      'itemText': 'Digestive Issues Text'
+      'itemText': 'Digestive Issues Text',
+      'sectionID': 'digestive' 
     },
     {
       'itemHeader': 'IBS and IBD',
-      'itemText': 'Help with reducing the symptoms of IBS (Irritable bowel syndrome) and IBD (Inflammatory bowel disease)'
+      'itemText': 'Help with reducing the symptoms of IBS (Irritable bowel syndrome) and IBD (Inflammatory bowel disease)',
+      'sectionID': 'ibs' 
     },
     {
       'itemHeader': 'Fatigue',
-      'itemText': 'Fatigue Text'
+      'itemText': 'Fatigue Text',
+      'sectionID': 'fatigue'
     },
     {
       'itemHeader': 'Thyroid Health',
-      'itemText': 'Thyroid Health Text'
+      'itemText': 'Thyroid Health Text',
+      'sectionID': 'thyroid' 
     },
     {
       'itemHeader': 'Brain health and mood',
-      'itemText': 'Brain health and mood Text'
+      'itemText': 'Brain health and mood Text',
+      'sectionID': 'brain' 
     },
     {
       'itemHeader': 'Headaches',
-      'itemText': 'Headaches Text'
+      'itemText': 'Headaches Text',
+      'sectionID': 'headache' 
     },
     {
       'itemHeader': 'Inflamation and joint pain',
-      'itemText': 'Inflamation and joint pain Text'
+      'itemText': 'Inflamation and joint pain Text',
+      'sectionID': 'inflamation' 
     },
     {
       'itemHeader': 'Autoimmune conditions',
-      'itemText': 'Autoimmune conditions Text'
+      'itemText': 'Autoimmune conditions Text',
+      'sectionID': 'autoimmune' 
     },
     {
       'itemHeader': 'Skin conditions',
-      'itemText': 'Skin conditions Text'
+      'itemText': 'Skin conditions Text',
+      'sectionID': 'skin' 
     },
     {
       'itemHeader': 'Fertility and Pregnancy health',
-      'itemText': 'Fertility and Pregnancy health Text'
+      'itemText': 'Fertility and Pregnancy health Text',
+      'sectionID': 'fertility' 
     },
     {
       'itemHeader': 'Wellness and Sports Performance',
-      'itemText': 'Wellness and Sports Performance Text'
+      'itemText': 'Wellness and Sports Performance Text',
+      'sectionID': 'wellness' 
     }
 ]
     }

@@ -11,6 +11,7 @@ const routes = [
       { path: '/classes', component: () => import('pages/PageClasses.vue') },
       { path: '/faq', component: () => import('pages/PageFAQ.vue') },
       { path: '/contact', component: () => import('pages/PageContact.vue') },
+      { path: '/testimonials', component: () => import('pages/PageTestimonials.vue') },
       { path: '/recipes', component: () => import('pages/PageRecipes.vue') }
     ]
   },

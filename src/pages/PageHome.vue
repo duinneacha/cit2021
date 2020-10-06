@@ -64,9 +64,9 @@
 
         <q-card-section class="text-center"> 
 
-          <div class="text-center">
+          <div>
 
-          <p class="text-bold">Ali Dorgan</p>
+          <p class="text-bold text-center">Ali Dorgan</p>
           <p class="no-margin">Shaleila</p>
           <p class="no-margin">Newtown Road</p>
           <p class="no-margin">Cobh</p>
