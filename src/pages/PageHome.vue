@@ -26,6 +26,38 @@
    </div>
 
     <div class="row bg-green-2">
+          <q-card class="my-card">
+              
+    <q-card-section horizontal>
+        <q-img
+          class="col-5"
+          src="../assets/ali-about.jpg"
+        />
+
+        <q-card-section class="text-subtitle2">
+          <p>Ali’s passion and interest in wellbeing stems from her background in competitive sports. She qualified in 2003 with a Degree in Social Science, then went on to get her Neuromuscular Therapy qualification in 2005. Healthy eating and Nutrition has always been a solid part of Ali’s lifestyle. She further developed her knowledge and expertise with a 4 Year Nutritional Therapy qualification which she graduated from in 2018.</p>
+          <p>She enjoys working with clients who have health issues and are willing to make long term changes to improve their health. </p>
+          <p>Ali has done further training in Advanced Dry Needling (Acupuncture) and uses a hands-on approach to her treatments. </p>
+          <p>Ali will guide you, support you, encourage you, challenge you and educate you on what is important for your health and to achieve your goals.</p>
+
+        </q-card-section>
+      </q-card-section>
+
+      <q-separator />
+
+      <q-card-actions>
+        
+        <q-btn
+          flat 
+          class="bg-grey-6 text-white"
+          to="/contact"
+          >
+          Book
+        </q-btn>
+      </q-card-actions>
+    </q-card>
+    </div>
+    <!-- <div class="row bg-green-2">
       <q-toolbar class="text-grey-9 shadow-2 text-center q-mt-md">
         <q-toolbar-title class="text-h5 q-pa-xs text-bold">Services</q-toolbar-title>
       </q-toolbar>
@@ -38,7 +70,7 @@
       <div class="q-pa-md col-6" >
         <nutrition-list />
       </div>
-    </div>
+    </div> -->
 
     <!-- Testemonials  -->
     <testimonials />

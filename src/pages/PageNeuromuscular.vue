@@ -37,7 +37,7 @@
         
     >
         <q-card-section>
-          <div class="text-h6">For an urgent issue phone <q-btn color="green-3" type="a" icon="phone" href="tel:0877727580">087 7727580</q-btn> and Ali will try her best to see you as soon as possible.</div>
+          <div class="text-h6">For an urgent issue text <q-btn color="green-3" type="a" icon="phone" href="tel:0877727580">087 7727580</q-btn> and Ali will try her best to see you as soon as possible.</div>
         
           <q-separator class="q-my-md" color="green-3" inset size="3px" />
 

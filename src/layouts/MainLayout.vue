@@ -89,12 +89,12 @@ const linksData = [
     icon: 'home',
     link: '#/'
   },
-  {
-    title: 'About Ali',
-    caption: 'More about Ali (Anneline) Dorgan',
-    icon: 'face',
-    link: '#/about'
-  },
+  // {
+  //   title: 'About Ali',
+  //   caption: 'More about Ali (Anneline) Dorgan',
+  //   icon: 'face',
+  //   link: '#/about'
+  // },
   {
     title: 'Nutrition',
     caption: 'Learn all about Alis Nutrition services',
