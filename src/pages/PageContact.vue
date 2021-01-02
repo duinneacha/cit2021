@@ -40,18 +40,18 @@
        label="Your email address *"
        hint="Email address"
        lazy-rules
-       :rules="[ val => val && val.length > 0 || 'Please enter your name']"
+       :rules="[ val => val && val.length > 0 || 'Please enter your email address']"
       />
 
       <q-input
         filled
-        type="number"
+        type="tel"
         v-model="age"
-        label="Your age *"
+        label="Your phone number *"
         lazy-rules
         :rules="[
-          val => val !== null && val !== '' || 'Please type your age',
-          val => val > 0 && val < 100 || 'Please type a real age'
+          val => val !== null && val !== '' || 'Please enter your phone number',
+          val => val > 0 && val < 100 || 'Please type a phone number'
         ]"
       />
       <q-input v-model="text" filled type="textarea" label="How can I help you?" />
