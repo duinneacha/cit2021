@@ -9,13 +9,18 @@
    </div>
 
 
-   <div class="q-pa-md bg-grey-3 rounded-borders" style="max-width: 600px; margin: 0 auto">
+   <div class="q-pa-md rounded-borders" style="max-width: 600px; margin: 0 auto">
      <q-toolbar
        class="text-center q-pa-md q-mb-xl"
        style="background-color: #94236E; color: #4FB854"
      >
-        <q-toolbar-title >Contact Ali</q-toolbar-title>
+        <q-toolbar-title >Nurtition Questionnaire</q-toolbar-title>
       </q-toolbar>
+      <div class="row bg-grey-4 shadow-3 rounded-borders q-pa-md q-mb-xl">
+        <p class="text-subtitle2">Please fill out this confidential questionnaire if you wish to make an appointment for Nutritional support. This will give Ali an understanding of your health issues or areas of health you may need support in (some of which you may not be aware of). This is important for all Nutrition consultations regardless of your goals.</p>
+        <p class="text-caption q-mb-none">All information is treated with strictest confidentiality.</p>
+        <p class="text-caption q-mt-none">You may be requested to provide recent blood tests if deemed necessary.</p>
+      </div>
 
      <q-form
        @submit="onSubmit"
@@ -34,6 +39,15 @@
       />
 
      <q-input
+        filled
+        type="tel"
+        v-model="age"
+        label="Your phone number *"
+        lazy-rules
+        :rules="[ val => val && val.length > 0 || 'Please enter your phone number']"
+      />
+     
+     <q-input
        filled
        v-model="email"
        color="green"
@@ -43,15 +57,17 @@
        :rules="[ val => val && val.length > 0 || 'Please enter your email address']"
       />
 
+
+
+      
+
       <q-input
         filled
-        type="tel"
-        v-model="age"
-        label="Your phone number *"
-        lazy-rules
-        :rules="[ val => val && val.length > 0 || 'Please enter your phone number']"
+        label="How can I help you?"
+        hint="asdasdasd"
+        type="textarea"
+        v-model="text"
       />
-      <q-input v-model="text" filled type="textarea" label="How can I help you?" />
       
 
       <div>

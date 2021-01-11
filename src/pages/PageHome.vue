@@ -22,6 +22,20 @@
         <q-card-section>
           Ali's Nutrition and Sports Therapy supports you to reach your optimal health and well-being. Using her own knowledge, qualifications and extensive experience Ali will guide you to reach your goals. Ali prides herself in ongoing learning and development, honesty and accountability.
         </q-card-section>
+        <q-card-section>
+          <div class="row justify-evenly">
+            <q-img
+              class="col-2"
+              src="../assets/tni.png"
+              style="width: 20%"
+            />
+             <q-img
+              class="col-2"
+              src="../assets/ntoi.png"
+              style="width: 20%"
+            />
+          </div>
+        </q-card-section>
       </q-card>
    </div>
 

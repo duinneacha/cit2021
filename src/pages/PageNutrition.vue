@@ -11,10 +11,12 @@
      <q-card class="my-card full-width">
        <q-card-section horizontal>
          <q-img
-           class="coal-5"
+           class="q-pa-md"
            src="../assets/nutrition.png"
          />
-       <q-card-section class="text-subtitle1">
+
+         
+       <q-card-section class="text-subtitle1 q-pa-md">
          <p>Nutritional Therapy is for everyone, it is centred on supporting all aspects of a person’s health and wellbeing: digestion, immune health, energy and blood sugar management, toxin removal and elimination, circulation and transport, hormonal function and susceptibility to food responses.
           We look at all aspects of a client’s life from stress, lifestyle factors, past medical history and previous life challenges, family history and genetic predisposition.</p>
 
@@ -38,7 +40,8 @@
         style="background-color: #94236E; color: #4FB854"  
     >
         <q-card-section>
-          <div class="text-h6">Book an appointment here <q-btn class="q-ml-md" color="green-3" type="a" icon="email" to="/contact">alinutrition@gmail.com</q-btn> </div>
+          <div class="text-h6">Fill out the <q-btn class="q-ml-md" color="green-3" type="a" icon="email" to="/nutritionQuestionnaire">Questionnaire</q-btn> here or contact Ali<q-btn class="q-ml-md" color="grey-6" type="a" icon="email" to="/contact">alinutrition@gmail.com</q-btn> </div>
+          
         </q-card-section>
       </q-card>
 
