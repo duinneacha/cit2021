@@ -29,6 +29,7 @@
               <img
                 v-if="recipeItem.imageUrl"
                 :src="recipeItem.imageUrl"
+                style="width: 40%; height: auto;"
               >
               <img
                 v-else
@@ -123,7 +124,7 @@ export default {
       'title': 'Ali’s Ferrero Rocher balls',
       'description': 'Makes 9 balls or 18 small ones',
       'benefits': 'Rich in electrolytes and protein',
-      'imageUrl': '',
+      'imageUrl': '../assets/ferror-rocher-balls.jpg',
       'nutritionalData': [
         'Macros per ball (9)',
         'Calories: 357',
@@ -154,7 +155,7 @@ export default {
         'title': 'Coconut chilli butternut and lentil soup',
         'description': 'Coconut chilli butternut and lentil soup',
         'benefits': '',
-        'imageUrl': '',
+        'imageUrl': '../assets/chilli-soup.jpg',
         'nutritionalData': [],
         'ingredients': [
           '3 cloves of Garlic',
