@@ -83,7 +83,7 @@
       <q-input
         filled
         type="text"
-        v-model="age"
+        v-model="height"
         label="Height"
         hint="Enter your height"
         lazy-rules
@@ -114,10 +114,16 @@
         v-model="sessionGoals"
       />
       
-      <q-toggle v-model="healthConditions" label="Do you have any health conditions?" />
+      <!-- <q-toggle v-model="healthConditions" label="Do you have any health conditions?" /> -->
+
+      <p class="q-mt-lg">Do you have any health conditions?</p>
+      <div class="q-gutter-sm">
+        <q-radio dense v-model="healthConditions" val="yes" label="Yes" />
+        <q-radio dense v-model="healthConditions" val="no" label="No" />
+      </div>
       
       <q-input
-        v-if="healthConditions"
+        v-if="healthConditions==='yes'"
         filled
         label="Health Conditions"
         hint="If you have health conditions, please list them here"
@@ -363,13 +369,14 @@ export default {
       email: null,
       phone: null,
       age: null,
+      height: null,
       weight: null,
       medicationsCurrent: null,
       medicationsPast: null,
       sessionGoals: null,
       text: '',
       accept: false,
-      healthConditions: false,
+      healthConditions: null,
       healthConditionsList: null,
       bloat: 'never',
       heartburn: 'never',

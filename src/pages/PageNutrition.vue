@@ -94,7 +94,7 @@ export default {
     },
     {
       'itemHeader': 'Digestive Issues, IBD and IBS',
-      'itemText': 'Ali has succesful experience in supporting clients with a number of digestive issues, using stool testing, urine and breath tests,  Elimination diets, symptom journalling and analysis. Ali wil guide and support you to reduce your digestive symptoms, improve your gut health and immunity. The approaches will depend on the digestive issues, test results and medical history of the client. You may be required to undergo stool and gut testing which Ali will guide you on through Labs she uses. ',
+      'itemText': 'Ali has successful experience in supporting clients with a number of digestive issues, using stool testing, urine and breath tests,  Elimination diets, symptom journaling and analysis. Ali will guide and support you to reduce your digestive symptoms, improve your gut health and tolerance. The approaches will depend on the digestive issues, test results and medical history of the client. You may be required to undergo stool and gut testing which Ali will guide you on through Labs she uses. ',
       'sectionID': 'digestive' 
     },
     {

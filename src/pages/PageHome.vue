@@ -20,7 +20,8 @@
         </q-card-section>
 
         <q-card-section>
-          Ali's Nutrition and Sports Therapy supports you to reach your optimal health and well-being. Using her own knowledge, qualifications and extensive experience Ali will guide you to reach your goals. Ali prides herself in ongoing learning and development, honesty and accountability.
+          Ali's Nutrition and Sports Therapy supports you to reach your optimal health and well-being. 
+          Using her extensive knowledge, qualifications and experience, Ali will guide you to reach your goals.
         </q-card-section>
         <q-card-section>
           <div class="row justify-evenly">
@@ -49,7 +50,7 @@
         />
 
         <q-card-section class="text-subtitle2">
-          <p>Ali’s passion and interest in wellbeing stems from her background in competitive sports. She qualified in 2003 with a Degree in Social Science, then went on to get her Neuromuscular Therapy qualification in 2005. Healthy eating and Nutrition has always been a solid part of Ali’s lifestyle. She further developed her knowledge and expertise with a 4 Year Nutritional Therapy qualification which she graduated from in 2018.</p>
+          <p>Ali’s passion and interest in well-being stems from her background in competitive sports. She qualified in 2003 with a degree in Social Science, then went on to get her Neuromuscular Therapy qualification in 2005. Healthy eating and Nutrition has always been a solid part of Ali’s lifestyle. She further developed her knowledge and expertise with a 4 Year Nutritional Therapy qualification which she graduated from in 2018.</p>
           <p>She enjoys working with clients who have health issues and are willing to make long term changes to improve their health. </p>
           <p>Ali has done further training in Advanced Dry Needling (Acupuncture) and uses a hands-on approach to her treatments. </p>
           <p>Ali will guide you, support you, encourage you, challenge you and educate you on what is important for your health and to achieve your goals.</p>
