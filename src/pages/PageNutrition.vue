@@ -50,7 +50,7 @@
 
    <div class="row bg-purple-2">
 
-      <q-card
+      <!-- <q-card
         v-for="nutritionItem in nutritionData"
         :key="nutritionItem.itemHeader"
         :id="nutritionItem.sectionID"
@@ -68,9 +68,189 @@
         <q-card-section class="text-grey-9 text-body2">
           <div >{{ nutritionItem.itemText }}</div>
         </q-card-section>
+      </q-card> -->
+
+      <q-card
+        class="nutrition-card col col-5 q-ma-md q-ma-md"
+      >
+        <q-card-section
+          class="text-grey-2"
+          style="background-color: #94236E;"
+        >
+          <div class="text-subtitle1 text-bold"> Diabetes, Non-alcoholic fatty liver and Cholesterol</div>
+          
+        </q-card-section>
+
+        <q-separator />
+        <q-card-section class="text-grey-9 text-body2">
+          <p>Ali has successful experience supporting people in reducing high cholesterol and raised fatty liver markers by guiding them on a a diet plan to change foods that are contributing to ill-health and also recommending lifestyle changes which play a large part in raising cholesterol and fatty liver. It is not just diet-related, stress is one of the biggest drivers of cholesterol and fatty- liver. Ali also does meal plans for clients with Type 2 diabetes. Ali uses researched and approved Neutraceutical supplements  for both conditions to manage and reduce symptoms alongside diet and lifestyle changes.</p>
+        </q-card-section>
       </q-card>
 
-    
+      <q-card
+        class="nutrition-card col col-5 q-ma-md q-ma-md"
+      >
+        <q-card-section
+          class="text-grey-2"
+          style="background-color: #94236E;"
+        >
+          <div class="text-subtitle1 text-bold">Digestive Issues, IBD and IBS</div>
+          
+        </q-card-section>
+
+        <q-separator />
+        <q-card-section class="text-grey-9 text-body2">
+          <p>Ali has successful experience in supporting clients with a number of digestive issues, using stool testing, urine and breath tests,  Elimination diets, symptom journaling and analysis. Ali will guide and support you to reduce your digestive symptoms, improve your gut health and tolerance. The approaches will depend on the digestive issues, test results and medical history of the client. You may be required to undergo stool and gut testing which Ali will guide you on through Labs she uses.</p>
+        </q-card-section>
+      </q-card>
+
+
+      <q-card
+        class="nutrition-card col col-5 q-ma-md q-ma-md"
+      >
+        <q-card-section
+          class="text-grey-2"
+          style="background-color: #94236E;"
+        >
+          <div class="text-subtitle1 text-bold">Thyroid Health</div>
+          
+        </q-card-section>
+
+        <q-separator />
+        <q-card-section class="text-grey-9 text-body2">
+          <p>Ali is one of the Nutritionist on TNI working with clients in this area. If you wish to find out more information you can go to <a href="https://thyroidnutritionireland.com/" target="_blank">Thyroid Nutrition Ireland Website</a> .  Ali works with Hyper Thyroid, Hypothyroid, Auto-Immune thyroid and clients who have symptoms of thyroid but are sub clinical and do not clinically on blood tests show a level requiring medication. </p>
+        </q-card-section>
+      </q-card>
+
+
+      <q-card
+        class="nutrition-card col col-5 q-ma-md q-ma-md"
+      >
+        <q-card-section
+          class="text-grey-2"
+          style="background-color: #94236E;"
+        >
+          <div class="text-subtitle1 text-bold">Joint Health and Inflamation</div>
+          
+        </q-card-section>
+
+        <q-separator />
+        <q-card-section class="text-grey-9 text-body2">
+          <p>Whether you are recovering from a recent injury, have ongoing joint pain or arthritis your diet will be able to help reduce your inflamation and aide a healthy recovery. Ali can guide you with an antiinflammatory meal plan to include foods that reduce inflamation and eliminate foods that trigger and heighten inflamation pathways. She can also guide  you on approved and effective natural supplements to support a quicker recovery</p>
+        </q-card-section>
+      </q-card>
+
+
+      <q-card
+        class="nutrition-card col col-5 q-ma-md q-ma-md"
+      >
+        <q-card-section
+          class="text-grey-2"
+          style="background-color: #94236E;"
+        >
+          <div class="text-subtitle1 text-bold">Other Areas</div>
+          
+        </q-card-section>
+
+        <q-separator />
+        <q-card-section class="text-grey-9 text-body2">
+          <p>Ali also works with clients who have low energy, fatigue and joint pain.  Through the guidance of uirne tests on energy markers and inflamation markers, she can support you  with recommendation to improve how your body makes energy.  Nutritional Therapy can also help brain health issues such as foggy head, headaches, alzheimers, low mood or irritability. Contact Ali and discuss your issues, she may be able to help you.</p>
+        </q-card-section>
+      </q-card>
+
+
+      <q-card
+        class="nutrition-card col col-5 q-ma-md q-ma-md"
+      >
+        <q-card-section
+          class="text-grey-2"
+          style="background-color: #94236E;"
+        >
+          <div class="text-subtitle1 text-bold">Autoimmune conditions</div>
+          
+        </q-card-section>
+
+        <q-separator />
+        <q-card-section class="text-grey-9 text-body2">
+          <p>Ali has successful experience supporting clients with Auto immune conditions in managing their condition better to reduce flare ups. She has worked with clients with Rheumatoid Arthritis, MS, Chrohns, Thyroiditis, Graves, Psorasis and Type 1 Diabetes.</p>
+        </q-card-section>
+      </q-card>
+
+
+      <q-card
+        class="nutrition-card col col-5 q-ma-md q-ma-md"
+      >
+        <q-card-section
+          class="text-grey-2"
+          style="background-color: #94236E;"
+        >
+          <div class="text-subtitle1 text-bold">Fertility and Pregnancy health</div>
+          
+        </q-card-section>
+
+        <q-separator />
+        <q-card-section class="text-grey-9 text-body2">
+          <p>Ali has successfully supported couples who have been trying to conceive with nutrional, lifestyle and neutraceutical support to strengthen their chances alongside natural means and IVF. She has also worked with clients to improve overall hormonal health such as missed menstrual cycles , irregular cycles, PMS and heavy cycles, PCOS and Endometriosis as well as supporting Men with low testosterone levels and prostrate health.</p>
+        </q-card-section>
+      </q-card>
+
+
+      <q-card
+        class="nutrition-card col col-5 q-ma-md q-ma-md"
+      >
+        <q-card-section
+          class="text-grey-2"
+          style="background-color: #94236E;"
+        >
+          <div class="text-subtitle1 text-bold">Sports Performance</div>
+          
+        </q-card-section>
+
+        <q-separator />
+        <q-card-section class="text-grey-9 text-body2">
+          <p>Ali is very passionate about Sport and has competed in Sport all her life. She has worked with sports clients in the following areas and is always open to new sports clients who are passionate about how their Nutrition and Lifestyle can influence their performances.</p>
+        </q-card-section>
+      </q-card>
+
+
+      <q-card
+        class="nutrition-card col col-5 q-ma-md q-ma-md"
+      >
+        <q-card-section
+          class="text-grey-2"
+          style="background-color: #94236E;"
+        >
+          <div class="text-subtitle1 text-bold">Triathletes and Long Distance Runners</div>
+          
+        </q-card-section>
+
+        <q-separator />
+        <q-card-section class="text-grey-9 text-body2">
+          <p>Ali does plans to support effective recovery and maximum endurance and performance to include Meal plans and supplement recommendations alongside Lifestyle recommendations to match their demands and body composition. Ali has been involved in Cobh Triathlon Club for 7 years and has an appreciation of the demands of the sport.</p>
+        </q-card-section>
+      </q-card>
+
+
+      <q-card
+        class="nutrition-card col col-5 q-ma-md q-ma-md"
+      >
+        <q-card-section
+          class="text-grey-2"
+          style="background-color: #94236E;"
+        >
+          <div class="text-subtitle1 text-bold">Strength Athletes</div>
+          
+        </q-card-section>
+
+        <q-separator />
+        <q-card-section class="text-grey-9 text-body2">
+          <p>Whether your chosen sport is Weightlifting, Powerlifting or Crossfit, Ali can support you with a Meal Plan to aide your recovery and strength gains while maintaing the body composition you need for your chosen weight class or for your goals. Ali is also an active Weightlifter and Crossfitter and regulary trains herself.</p>
+        </q-card-section>
+      </q-card>
+
+
+
+
    </div>
 
     <div class="row">
@@ -99,7 +279,7 @@ export default {
     },
     {
       'itemHeader': 'Thyroid Health',
-      'itemText': 'Ali is a Nutritionist  of Thyroid Nutrition Ireland and is one of the Nutritionist on TNI working with clients in this area. If you wish to find out more information you can go to: https://thyroidnutritionireland.com/.  Ali works with Hyper Thyroid, Hypothyroid , Auto- Immune thyroid and clients who have symptoms of thyroid but are sub clinical and do not clinically on blood tests show a level requiring medication. ',
+      'itemText': 'Ali is a Nutritionist of Thyroid Nutrition Ireland and is one of the Nutritionist on TNI working with clients in this area. If you wish to find out more information you can go to: https://thyroidnutritionireland.com/.  Ali works with Hyper Thyroid, Hypothyroid , Auto- Immune thyroid and clients who have symptoms of thyroid but are sub clinical and do not clinically on blood tests show a level requiring medication. ',
       'sectionID': 'thyroid' 
     },
     {
