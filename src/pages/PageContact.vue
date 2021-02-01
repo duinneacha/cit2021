@@ -55,8 +55,8 @@
       
 
       <div>
-        <q-btn label="Submit"  @click="submitForm()"  type="submit" color="primary"/>
-        <q-btn label="Reset" type="reset" color="primary" flat class="q-ml-sm" />
+        <q-btn  disable label="Submit"  @click="submitForm()"  type="submit" color="primary"/>
+        <q-btn  disable label="Reset" type="reset" color="primary" flat class="q-ml-sm" />
         
       </div>
     </q-form>
