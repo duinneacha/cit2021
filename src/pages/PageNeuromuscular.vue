@@ -41,7 +41,7 @@
         
           <q-separator class="q-my-md" color="green-3" inset size="3px" />
 
-          <div class="text-h6">Alternatively drop Ali an email here <q-btn class="q-ml-md" color="green-3" type="a" icon="email" to="/contact">alinutrition@gmail.com</q-btn> </div>
+          <div class="text-h6">Alternatively drop Ali an email here <q-btn class="q-ml-md" color="green-3" type="a" icon="email" to="/contact">alisnutrition@gmail.com</q-btn> </div>
 
         </q-card-section>
         

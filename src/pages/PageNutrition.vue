@@ -40,7 +40,7 @@
         style="background-color: #94236E; color: #4FB854"  
     >
         <q-card-section>
-          <div class="text-h6">Fill out the <q-btn class="q-ml-md" color="green-3" type="a" icon="email" to="/nutritionQuestionnaire">Questionnaire</q-btn> here or contact Ali<q-btn class="q-ml-md" color="grey-6" type="a" icon="email" to="/contact">alinutrition@gmail.com</q-btn> </div>
+          <div class="text-h6">Fill out the <q-btn class="q-ml-md" color="green-3" type="a" icon="email" to="/nutritionQuestionnaire">Questionnaire</q-btn> here or contact Ali<q-btn class="q-ml-md" color="grey-6" type="a" icon="email" to="/contact">alisnutrition@gmail.com</q-btn> </div>
           
         </q-card-section>
       </q-card>

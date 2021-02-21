@@ -13,7 +13,7 @@
 
         <q-toolbar-title  class="text-nunito text-bold">
           <div class="logo-title">
-              Ali Dorgan Nurtition & Neuromuscular Therapy
+              Ali Dorgan Nutrition & Neuromuscular Therapy
           </div>
           
         </q-toolbar-title>
@@ -21,7 +21,7 @@
         <div class="bg-grey-5">
 
           
-          <q-btn color="grey-8 large-screen-only" type="e" icon="email" href="email:alinutrition@gmail.com">alinutrition@gmail.com</q-btn>
+          <q-btn color="grey-8 large-screen-only" type="e" icon="email" href="email:alisnutrition@gmail.com">alisnutrition@gmail.com</q-btn>
           <q-btn class="q-ml-md large-screen-only" color="grey-8" type="a" icon="phone" href="tel:0877727580">087 7727580</q-btn>
           
 
@@ -62,7 +62,7 @@
 
           <span class="text-overline">www.alinutrition.com</span>
           <span class="text-overline q-pl-md"><q-icon name="email" /></span>
-          <span class="text-overline q-pl-md">alinutrition@gmail.com </span>
+          <span class="text-overline q-pl-md">alisnutrition@gmail.com </span>
           <span class="text-overline q-px-md"><q-icon name="telephone" /></span>
           <span class="text-overline q-pl-md"> 087 7727580 </span>
           

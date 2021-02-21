@@ -50,10 +50,10 @@
         />
 
         <q-card-section class="text-subtitle2">
-          <p>Ali’s passion and interest in well-being stems from her background in competitive sports. She qualified in 2003 with a degree in Social Science, then went on to get her Neuromuscular Therapy qualification in 2005. Healthy eating and Nutrition has always been a solid part of Ali’s lifestyle. She further developed her knowledge and expertise with a 4 Year Nutritional Therapy qualification which she graduated from in 2018.</p>
-          <p>She enjoys working with clients who have health issues and are willing to make long term changes to improve their health. </p>
+          <p>Ali’s passion and interest in well-being stems from her background in competitive sports. Having qualified in 2003 with a degree in Social Science, Ali went on to attain a Neuromuscular Therapy qualification in 2005. Healthy eating and nutrition always being a solid part of Ali’s lifestyle. She further developed her knowledge and expertise with a 4 Year Nutritional Therapy qualification which she graduated from in 2018.</p>
+          <p>She enjoys working with clients who have health issues and are committed to make long term changes to improve their health. </p>
           <p>Ali has done further training in Advanced Dry Needling (Acupuncture) and uses a hands-on approach to her treatments. </p>
-          <p>Ali will guide you, support you, encourage you, challenge you and educate you on what is important for your health and to achieve your goals.</p>
+          <p>Ali will guide, support, encourage, challenge and educate you on what is important for your health and to achieve your goals.</p>
 
         </q-card-section>
       </q-card-section>
@@ -133,7 +133,7 @@
           icon="email"
           to="/contact"
           
-          >alinutrition@gmail.com</q-btn>
+          >alisnutrition@gmail.com</q-btn>
           
           <q-btn class="q-ml-md" color="grey-6" type="a" icon="phone" href="tel:0877727580">087 7727580</q-btn>
 

@@ -18,13 +18,15 @@
     >
       <q-carousel-slide name="style" class="column no-wrap flex-center">
         <!-- <q-icon name="style" size="56px" /> -->
-        <div class="q-mt-md q-mb-xl text-center">
-          <p>Priorr to visiting Ali, I had been on prescribed tablets for severe acid reflux for over 15 years with little improvement. After speaking with Ali and implementing her diet plan including vitamins, led to no more tablets and more importantly, no more reflux.</p>
+        <!-- <q-scroll-area style="width: 300px; height: 300px;"> -->
+          <div class="q-mt-md q-mb-xl text-center">
+            <p>Prior to visiting Ali, I had been on prescribed tablets for severe acid reflux for over 15 years with little improvement. After speaking with Ali and implementing her diet plan including vitamins, led to no more tablets and more importantly, no more reflux.</p>
 
-          <p>Eating new healthier foods has resulted in the loss of excess weight with no ill effects, increased energy levels and better sleep.</p>
-          <p>Liam McAlister, Cobh Co. Cork</p>
-          <q-btn outline style="color: grey-6;" label="Pictures" to="/testimonials" />
-        </div>
+            <!-- <p>Eating new healthier foods has resulted in the loss of excess weight with no ill effects, increased energy levels and better sleep.</p> -->
+            <p>Liam McAlister, Cobh Co. Cork</p>
+            <q-btn outline style="color: grey-6;" label="Pictures" to="/testimonials" />
+          </div>
+        <!-- </q-scroll-area> -->
       </q-carousel-slide>
 
       <!-- <q-carousel-slide name="tv" class="column no-wrap flex-center">
@@ -46,7 +48,7 @@
       </q-carousel-slide>
 
       <q-carousel-slide name="OrlaTest" class="column no-wrap flex-center">
-        <q-icon name="layers" size="56px" />
+        <!-- <q-icon name="layers" size="56px" /> -->
         <div class="q-mt-md text-center">
           <p>Amazing therapist - sorted my issue straight away and gave great after advice to avoid the same thing happening. If you are into the strength training then this lady will be your best pal to avoid unnecessary injury</p>
           <p>Orla</p>

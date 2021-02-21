@@ -17,9 +17,9 @@
         <q-toolbar-title >Nurtition Questionnaire</q-toolbar-title>
       </q-toolbar>
       <div class="row bg-grey-4 shadow-3 rounded-borders q-pa-md q-mb-xl">
-        <p class="text-subtitle2">Please fill out this confidential questionnaire if you wish to make an appointment for Nutritional support. This will give Ali an understanding of your health issues or areas of health you may need support in (some of which you may not be aware of). This is important for all Nutrition consultations regardless of your goals.</p>
+        <p class="text-subtitle2">Please fill out this confidential questionnaire if you would like to make an appointment for Nutritional support. This will give Ali a better understanding of your health needs. Please try to answer all questions.</p>
         <p class="text-caption q-mb-none">All information is treated with strictest confidentiality.</p>
-        <p class="text-caption q-mt-none">You may be requested to provide recent blood tests if deemed necessary.</p>
+        <p class="text-caption q-mt-none">You may be requested to provide recent blood tests if required.</p>
       </div>
 
      <q-form
@@ -33,7 +33,6 @@
        v-model="name"
        color="green"
        label="Your name *"
-       hint="Name and surname"
        lazy-rules
        :rules="[ val => val && val.length > 0 || 'Please enter your name']"
       />
@@ -52,7 +51,6 @@
        v-model="email"
        color="green"
        label="Your email address *"
-       hint="Email address"
        lazy-rules
        :rules="[ val => val && val.length > 0 || 'Please enter your email address']"
       />
@@ -63,7 +61,6 @@
         type="num"
         v-model="age"
         label="Age"
-        hint="Enter your age"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please enter your age']"
       />
@@ -74,7 +71,6 @@
         type="text"
         v-model="weight"
         label="Weight"
-        hint="Enter your weight"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please enter your weight']"
       />
@@ -85,7 +81,6 @@
         type="text"
         v-model="height"
         label="Height"
-        hint="Enter your height"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please enter your height']"
       />
@@ -93,7 +88,6 @@
       <q-input
         filled
         label="Medications you are currently taking?"
-        hint="List the medications that you are currently taking"
         type="textarea"
         v-model="medicationsCurrent"
       />
@@ -101,32 +95,24 @@
       <q-input
         filled
         label="Medications you have taken in the past (if known)?"
-        hint="List the medications that you have taken in the past (if known)"
         type="textarea"
         v-model="medicationsPast"
       />
 
       <q-input
         filled
-        label="Session Goals?"
-        hint="What would you like to get from the sessions / Your goals or health changes you want to make?"
+        label="What would you like to improve with your health?"
         type="textarea"
         v-model="sessionGoals"
       />
       
       <!-- <q-toggle v-model="healthConditions" label="Do you have any health conditions?" /> -->
 
-      <p class="q-mt-lg">Do you have any health conditions?</p>
-      <div class="q-gutter-sm">
-        <q-radio dense v-model="healthConditions" val="yes" label="Yes" />
-        <q-radio dense v-model="healthConditions" val="no" label="No" />
-      </div>
+      
       
       <q-input
-        v-if="healthConditions==='yes'"
         filled
-        label="Health Conditions"
-        hint="If you have health conditions, please list them here"
+        label="Do you have any diagnosed health conditions?"
         type="textarea"
         v-model="healthConditionsList"
       />
@@ -137,14 +123,14 @@
 
 
     <div class="q-pa-md q-gutter-sm">
-      <p class="q-mt-lg">Do you experience bloating or flatulence/ wind?</p>
+      <p class="q-mt-lg">How often do you experience bloating or flatulence / wind?</p>
       <div class="q-gutter-sm">
         <q-radio v-model="bloat" val="never" label="Never" />
         <q-radio v-model="bloat" val="sometimes" label="Sometimes" />
         <q-radio v-model="bloat" val="often" label="Often" />
       </div>
       <q-separator />
-      <p class="q-mt-lg">Do you experience heartburn or indigestion?</p>
+      <p class="q-mt-lg">How often do you experience heartburn or indigestion?</p>
       <div class="q-gutter-sm">
         <q-radio v-model="heartburn" val="never" label="Never" />
         <q-radio v-model="heartburn" val="sometimes" label="Sometimes" />
@@ -157,11 +143,12 @@
         <q-radio dense v-model="cramps" val="yes" label="Yes" />
       </div>
       <q-separator />
-      <p class="q-mt-lg">Do you have a bowel movement each day?</p>
+      <p class="q-mt-lg">How often do you have a bowel movement?</p>
       <div class="q-gutter-sm">
-        <q-radio dense v-model="bowel" val="yes" label="Yes" />
-        <q-radio dense v-model="bowel" val="more" label="A few times a week" />
-        <q-radio dense v-model="bowel" val="less" label="Not more than twice a week" />
+        <q-radio dense v-model="bowel" val="daily" label="Daily" />
+        <q-radio dense v-model="bowel" val="less" label="Less than 3 x week" />
+        <q-radio dense v-model="bowel" val="more" label="Once a week" />
+        <q-radio dense v-model="bowel" val="varies" label="Varies" />
       </div>
       <q-separator />
       <p class="q-mt-lg">Do you get these often?</p>
@@ -177,13 +164,13 @@
         <q-radio dense v-model="gurgling" val="often" label="Often" />
       </div>
       <q-separator />
-      <p class="q-mt-lg">Any difficulty digesting fatty foods?</p>
+      <p class="q-mt-lg">Do you have any difficulty digesting fatty foods?</p>
       <div class="q-gutter-sm">
         <q-radio dense v-model="fattyFoods" val="yes" label="Yes" />
         <q-radio dense v-model="fattyFoods" val="no" label="No" />
       </div>
       <q-separator />
-      <p class="q-mt-lg">Do you have any foods that trigger digestive symptoms that you are aware of?</p>
+      <p class="q-mt-lg">Are you aware of any foods that trigger digestive symptoms?</p>
       <div class="q-gutter-sm">
         <q-radio dense v-model="digestiveTrigger" val="yes" label="Yes" />
         <q-radio dense v-model="digestiveTrigger" val="no" label="No" />
@@ -193,7 +180,6 @@
         v-if="digestiveTrigger==='yes'"
         filled
         label="Which Foods"
-        hint="List the foods that are digestive triggers"
         type="textarea"
         v-model="digestiveTriggerList"
       />
@@ -202,14 +188,6 @@
         <q-toolbar-title>Hormonal Screening Please Tick</q-toolbar-title>
       </q-toolbar>
 
-
-      <p class="q-mt-lg">Do you have frequent fatigue during the day?</p>
-      <div class="q-gutter-sm">
-        <q-radio dense v-model="fatigue" val="yes" label="Yes" />
-        <q-radio dense v-model="fatigue" val="no" label="No" />
-      </div>
-      <q-separator />
-
       <p class="q-mt-lg">Do you have low energy?</p>
       <div class="q-gutter-sm">
         <q-radio dense v-model="lowEnergy" val="yes" label="Yes" />
@@ -217,26 +195,35 @@
       </div>
       <q-separator />
 
-      <p class="q-mt-lg">Do you have missed cycles (Women only)?</p>
+      <p class="q-mt-lg">Do you experience episodes of fatigue during the day?</p>
+      <div class="q-gutter-sm">
+        <q-radio dense v-model="fatigue" val="yes" label="Yes" />
+        <q-radio dense v-model="fatigue" val="no" label="No" />
+      </div>
+      <q-separator />
+
+
+      <p class="q-mt-lg">Do you have missed menstrual cycles (females)?</p>
       <div class="q-gutter-sm">
         <q-radio dense v-model="missedCycles" val="yes" label="Yes" />
         <q-radio dense v-model="missedCycles" val="no" label="No" />
+        <q-radio dense v-model="missedCycles" val="nr" label="Not Relevant" />
       </div>
       <q-separator />
 
-      <p class="q-mt-lg">Do you have painful cycles, PMS symptoms or heavy cycles (Women only)?</p>
+      <p class="q-mt-lg">Do you experience PMS symptoms, painful or heavy cycles (females)?</p>
       <div class="q-gutter-sm">
-        <q-radio dense v-model="painfulCycles" val="never" label="Never" />
         <q-radio dense v-model="painfulCycles" val="sometimes" label="Sometimes" />
         <q-radio dense v-model="painfulCycles" val="often" label="Often" />
+        <q-radio dense v-model="painfulCycles" val="never" label="Never" />
       </div>
       <q-separator />
 
-      <p class="q-mt-lg">Do you low mood, anxiety or depression?</p>
+      <p class="q-mt-lg">Do you experience low mood, anxiety or depression?</p>
       <div class="q-gutter-sm">
-        <q-radio dense v-model="lowMood" val="never" label="Never" />
         <q-radio dense v-model="lowMood" val="sometimes" label="Sometimes" />
         <q-radio dense v-model="lowMood" val="often" label="Often" />
+        <q-radio dense v-model="lowMood" val="never" label="Never" />
       </div>
       <q-separator />
 
@@ -245,21 +232,20 @@
         class="q-mt-lg"
         filled
         label="Any other hormonal concerns?"
-        hint="Any other hormonal concerns (Libido, mood etc.)"
         type="textarea"
         v-model="otherHormonal"
       />
 
 
       <q-toolbar class="bg-primary text-white shadow-2 text-center q-mt-xl">
-        <q-toolbar-title>Other Questions Please Tick</q-toolbar-title>
+        <q-toolbar-title>Further Information</q-toolbar-title>
       </q-toolbar>
 
-      <p class="q-mt-lg">Do you get headaches or migraines?</p>
+      <p class="q-mt-lg">Do you suffer from headaches or migraines?</p>
       <div class="q-gutter-sm">
-        <q-radio dense v-model="headaches" val="never" label="Never" />
-        <q-radio dense v-model="headaches" val="sometimes" label="Sometimes" />
         <q-radio dense v-model="headaches" val="often" label="Often" />
+        <q-radio dense v-model="headaches" val="sometimes" label="Sometimes" />
+        <q-radio dense v-model="headaches" val="never" label="Never" />
       </div>
       <q-separator />
 
@@ -277,14 +263,14 @@
       </div>
       <q-separator />
 
-      <p class="q-mt-lg">Any nausea?</p>
+      <p class="q-mt-lg">Do you have frequent nausea?</p>
       <div class="q-gutter-sm">
         <q-radio dense v-model="nausea" val="yes" label="Yes" />
         <q-radio dense v-model="nausea" val="no" label="No" />
       </div>
       <q-separator />
 
-      <p class="q-mt-lg">Any bitter taste in your mouth?</p>
+      <p class="q-mt-lg">Do you sometime experience a bitter taste in your mouth on waking?</p>
       <div class="q-gutter-sm">
         <q-radio dense v-model="bitterTaste" val="yes" label="Yes" />
         <q-radio dense v-model="bitterTaste" val="no" label="No" />
@@ -299,7 +285,7 @@
       <div class="q-gutter-sm">
         <q-radio dense v-model="exercise" val="daily" label="Daily" />
         <q-radio dense v-model="exercise" val="weekly" label="Weekly" />
-        <q-radio dense v-model="exercise" val="rarely" label="Weekly" />
+        <q-radio dense v-model="exercise" val="never" label="Never" />
       </div>
       
 
@@ -307,7 +293,6 @@
         class="q-mt-lg"
         filled
         label="What type of exercise do you do?"
-        hint="List the exercises you do"
         type="textarea"
         v-model="exerciseList"
       />
@@ -333,18 +318,18 @@
         class="q-mt-lg"
         filled
         label="Any foods you strongly dislike or avoid?"
-        hint="List the foods that you dislike or tend to avoid"
         type="textarea"
         v-model="dislikedFoods"
       />
 
-      <p class="q-mt-lg">Do you wish to have a meal plan with your support plan?</p>
+      <q-separator />
+      <p class="q-mt-lg">All clients will receive  meal recommendations included in their plan. Tailored meal plans with specific macros and calories are available at request.</p>
+      <p class="q-mt-lg">Would you like? </p>
       <div class="q-gutter-sm">
-        <q-radio dense v-model="mealPlan" val="no" label="No" />
-        <q-radio dense v-model="mealPlan" val="maybe" label="Maybe" />
-        <q-radio dense v-model="mealPlan" val="Yes" label="Yes" />
+        <q-radio dense v-model="mealPlan" val="Yes" label="Tailored meal plan (additional cost)" />
+        <q-radio dense v-model="mealPlan" val="maybe" label="Meal ideas only" />
       </div>
-      <p class="text-caption text-weight-bold q-mt-lg">Meal recommendations will be given but more detailed calorie /macro specific meal plans are available if requested.</p>
+      
             
 
     </div>
@@ -378,14 +363,14 @@ export default {
       accept: false,
       healthConditions: null,
       healthConditionsList: null,
-      bloat: 'never',
-      heartburn: 'never',
-      cramps: 'no',
-      bowel: 'more',
-      movementType: '',
-      gurgling: 'never',
-      fattyFoods: 'no',
-      digestiveTrigger: 'no',
+      bloat: null,
+      heartburn: null,
+      cramps: null,
+      bowel: null,
+      movementType: null,
+      gurgling: null,
+      fattyFoods: null,
+      digestiveTrigger: null,
       digestiveTriggerList: null,
       fatigue: null,
       lowEnergy: null,
