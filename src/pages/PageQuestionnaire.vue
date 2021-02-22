@@ -120,7 +120,7 @@
       <q-toolbar class="bg-primary text-white shadow-2 text-center q-mt-xl">
         <q-toolbar-title>Digestive Screening Please Tick</q-toolbar-title>
       </q-toolbar>
-
+  
 
     <div class="q-pa-md q-gutter-sm">
       <p class="q-mt-lg">How often do you experience bloating or flatulence / wind?</p>

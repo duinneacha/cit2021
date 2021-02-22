@@ -115,7 +115,7 @@
           <q-card>
             <q-card-section>
               <p>Ali works with people to make long term health changes, this takes time, support and ongoing accountability. You may also need to have meal plan changes, supplement changes and tweaks done over the initial period.  This is why Ali only works with people who are willing to commit to a three month package and does not offer stand along appointments for new clients.</p>
-              <p class="text-bold">3 month package costs €180</p>
+              <p class="text-bold">3 month package costs €200</p>
               <p>This includes 3x 1hr sessions over 3 months with ongoing support and check ins.  You will be given an action plan, supplement recommendations and meal recommendations. You may also be recommended to undergo some health tests. Health tests if required are an additional cost by the lab.</p>
 
               <p class="text-bold">Follow up sessions for long term clients</p>

@@ -60,7 +60,7 @@
       <q-toolbar>
         <q-toolbar-title>
 
-          <span class="text-overline">www.alinutrition.com</span>
+          <span class="text-overline">www.alidorgan.com</span>
           <span class="text-overline q-pl-md"><q-icon name="email" /></span>
           <span class="text-overline q-pl-md">alisnutrition@gmail.com </span>
           <span class="text-overline q-px-md"><q-icon name="telephone" /></span>
