@@ -14,7 +14,7 @@
        class="text-center q-pa-md q-mb-xl"
        style="background-color: #94236E; color: #4FB854"
      >
-        <q-toolbar-title >Nurtition Questionnaire</q-toolbar-title>
+        <q-toolbar-title >Nutrition Questionnaire</q-toolbar-title>
       </q-toolbar>
       <div class="row bg-grey-4 shadow-3 rounded-borders q-pa-md q-mb-xl">
         <p class="text-subtitle2">Please fill out this confidential questionnaire if you would like to make an appointment for Nutritional support. This will give Ali a better understanding of your health needs. Please try to answer all questions.</p>
